@@ -10,22 +10,23 @@ Flask==1.1.2
 Flask-RESTful==0.3.8
 
 # Virtual Env Setup
-windows setup:
 
-run the following (replace the fp below with the location of your local python 3.6 installation): `virtualenv . -p C:/Users/PC/AppData/Local/Programs/Python/Python36/python.exe`
+## windows setup:
 
-to activate the virtual env run: `./Scripts/activate`
+to set up the virtual env run (replace the fp below with the location of your local python 3.6 installation): `virtualenv . -p C:/Users/PC/AppData/Local/Programs/Python/Python36/python.exe`
 
-to deactivate just run: `deactivate`
+to run the virtualenv, run: `./Scripts/activate`
 
-to start a new virtual env contained here run: `virtualenv . -p C:/Users/PC/AppData/Local/Programs/Python/Python36/python.exe`
+to deactivate, run: `deactivate`
 
-macos setup: to set up the virtual env run: `virtualenv venv`
+## macos setup: 
+
+to set up the virtual env run: `virtualenv venv`
 
 if you want your virtualenv to inherit globally installed packages, run: `virtualenv venv --system-site-packages`
 
 to run the virtualenv, run: `source venv/bin/activate`
 
-to leave the virtual env, run: `deactivate`
+to deactivate, run: `deactivate`
 
 # Instructions
